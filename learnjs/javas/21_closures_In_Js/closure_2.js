@@ -1,13 +1,13 @@
-function hello(x){
+function hello(y,s){
     const a = "varA";
     const b = "varB";
 
     return function(){
-        console.log(a,b,x);
+        console.log(a,b,s,y);
     }
 }
 
-const ans = hello("arg");
+const ans = hello("ff");
 ans();
 
 /* 

@@ -1,9 +1,9 @@
 
 // Scope Chain
 // Lexically Scoped
-const last_name = "Chaudhari";
+const last_name = "jj";
 const printName = function (){
-    const first_name = "Yatin";
+    const first_name = "sir";
     
     function myfunction(){
     console.log(first_name);

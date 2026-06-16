@@ -1,7 +1,5 @@
 // Call Back hell / call Backs / the Pyramid of Doom :
 
-// const heading1 =document.querySelector(".heading1");
-// const heading2 =document.querySelector(".heading2");
 // const heading3 =document.querySelector(".heading3");
 // const heading4 =document.querySelector(".heading4");
 // const heading5 =document.querySelector(".heading5");
@@ -76,11 +74,6 @@ As you know that we can pass an argument to a function, right? But Javascript
 
 
 // const heading1 =document.querySelector(".heading"); // for else part 
-const heading1 =document.querySelector(".heading1");
-const heading2 =document.querySelector(".heading2");
-const heading3 =document.querySelector(".heading3");
-const heading4 =document.querySelector(".heading4");
-const heading5 =document.querySelector(".heading5");
 const heading6 =document.querySelector(".heading6");
 const heading7 =document.querySelector(".heading7");
 const heading8 =document.querySelector(".heading8");
@@ -89,7 +82,7 @@ const heading10 =document.querySelector(".heading10");
 
 
 function changeText(element,text,color,time,onSucess,onFailure){
-    setTimeout(()=>{
+    setTimeout(()=<{
         if(element){
           element.textContent = text;
           element.style.color = color;

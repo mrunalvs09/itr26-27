@@ -1,8 +1,8 @@
 // change styles of Elements :
 
-/*
 
-// const mainHeading = document.querySelector("#main-heading");
+
+const div = document.querySelector("#main-heading");
 const divElement = document.querySelector("div"); // will return the  first div 
 console.log(divElement);
 
@@ -17,11 +17,11 @@ heading2.style.color="#fff";
 // We cannot use  - in js 
 // heading2.style.background-color="purple"; // throws error
 // So what we do is use camelCase
-heading2.style.backgroundColor="purple"; 
+heading2.style.backgroundColor="red"; 
 heading2.style.border = "5px solid black";
 heading2.style.padding = "5px";
 
-*/
+
 
 /*
 

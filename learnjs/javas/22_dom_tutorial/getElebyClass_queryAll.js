@@ -11,7 +11,7 @@ console.log(navItems);
 // we can iterate on it).
 console.log(navItems[0]);
 console.log(navItems[1]);
-// It is Object
+// I`t is Object
 console.log(typeof navItems[2]);
 // But Not Array
 console.log(Array.isArray(navItems));
