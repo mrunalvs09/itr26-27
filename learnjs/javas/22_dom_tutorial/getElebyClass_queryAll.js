@@ -1,4 +1,4 @@
-/*
+
 
 // get multiple elements using  getElementbyClassname
 
@@ -16,14 +16,14 @@ console.log(typeof navItems[2]);
 // But Not Array
 console.log(Array.isArray(navItems));
 
-*/
+
 
 // get multiple elements items using querySelectorAll
 
-const navItems = document.querySelectorAll(".nav-item");
-// With querySelectorALL we get Nodelist
-console.log(navItems);
-// Array like Object (means we can do indexing ,but wont get array methods, 
-// we can iterate on it).
-console.log(navItems[0]);
-console.log(navItems[1]);
+// const navItems = document.querySelectorAll(".nav-item");
+// // With querySelectorALL we get Nodelist
+// console.log(navItems);
+// // Array like Object (means we can do indexing ,but wont get array methods, 
+// // we can iterate on it).
+// console.log(navItems[0]);
+// console.log(navItems[1]);

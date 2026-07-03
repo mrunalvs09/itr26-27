@@ -11,6 +11,8 @@ const numbers = [1,2,3,4,5,10];
 
 const total = numbers.reduce((accumulator,currentvalue)=>{
        return accumulator + currentvalue;
+       return accumulator + currentvalue;
+       return accumulator + currentvalue;
 });
 
 console.log(total);

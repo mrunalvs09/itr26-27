@@ -2,27 +2,27 @@
   
 // future
 
-// const bucket = ['coffee','chips','vegetables','salt','rice'];
+ const bucket = ['coffee','chips','vegetables','salt','rice'];
 
-/**
+
   Promise 
   task :  future value --> fried rice -> made from [vegetables,salt,rice]
   status : pending
   value : undefined
 
 
-  task :  future value done -> [vegetables,salt,rice] --> fried rice
-  status : fullfilled
-  value : returned future value --> fried rice
+  // task :  future value done -> [vegetables,salt,rice] --> fried rice
+  // status : fullfilled
+  // value : returned future value --> fried rice
 
- */
+ 
 
 
 // Promise :
 // future
 
-const bucket = ['coffee','chips','vegetables',,'rice'];
-// salt not present
+// const bucket = ['coffee','chips','vegetables',,'rice'];
+// // salt not present
 
 /**
   Promise 

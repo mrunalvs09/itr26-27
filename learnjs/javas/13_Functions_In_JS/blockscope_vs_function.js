@@ -65,7 +65,7 @@ console.log(firstname);
 //can be accessed through lexical scope by
 function myApp(){
     if(true){
-        let firstname = "yatin"; // case 1: block scoped
+        const firstname = "yatin"; // case 1: block scoped
         console.log(firstname); // accessed 
     }
     console.log(firstname);

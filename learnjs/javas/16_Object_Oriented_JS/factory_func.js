@@ -8,7 +8,7 @@
 */
 
 
-/*
+
 const user1 = {
     first_name : 'Yatin',
     last_name : 'Chaudhari',
